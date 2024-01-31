@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7118860592225433365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686928424306344238}
+  - component: {fileID: 2441596794040088431}
+  m_Layer: 0
+  m_Name: SaveAndLoad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6686928424306344238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118860592225433365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.681652, y: -1.8740928, z: 0.677991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2441596794040088431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118860592225433365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a58d593f4cb62b4eba5b057bead8068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData:
+    studentCoordinates: {x: 0, y: 0, z: 0}
+    motherCoordinates: {x: 0, y: 0, z: 0}
+    isTimelineActive: 0
+    isHouseActive: 0
+    isBarangayActive: 0
+    isSchoolActive: 0
+    isControlsActive: 0
+  student: {fileID: 0}
+  mother: {fileID: 0}
+  timelineGameObject: {fileID: 0}
+  houseGameObject: {fileID: 0}
+  barangayGameObject: {fileID: 0}
+  schoolGameObject: {fileID: 0}
+  controlsGameObject: {fileID: 0}
