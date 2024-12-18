@@ -27,7 +27,6 @@ public class BookTrigger : MonoBehaviour
         if(playerInRange ==true){
             bookMenu.SetActive(true);
             controls.SetActive(false);
-            PauseButton.PauseGame();
         }
         
 

@@ -41,18 +41,14 @@ public class LoadingToCutscene : MonoBehaviour
         
         while (!operation.isDone)
         {
-            if (operation.progress >= 0.9f)
+            if (operation.progress >= 0.8f)
             {
                 loadingText.text = "Loading " +  Mathf.FloorToInt(operation.progress * 100) + "%";
                 yield return new WaitForSeconds(6f);
 
                 operation.allowSceneActivation = true;
                 
-            }
-            else
-            {
-                loadingText.text = "Loading " + Mathf.FloorToInt(operation.progress * 100) + "%";
-            }
+            } 
 
             yield return null;
         }

@@ -49,7 +49,7 @@ public class Loading : MonoBehaviour
         
         while (!operation.isDone)
         {
-            if (operation.progress >= 0.9f)
+            if (operation.progress >= 0.8f)
             {
                 loadingText.text = "Loading " +  Mathf.FloorToInt(operation.progress * 100) + "%";
                 yield return new WaitForSeconds(6f);
